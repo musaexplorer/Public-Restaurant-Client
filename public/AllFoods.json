@@ -1,0 +1,349 @@
+[
+    {
+        "id": "1001",
+        "food_image": "https://i.ibb.co.com/Gc6Nhzg/Did-someone-say-brisket-Mac-and-cheese-Y-all-need-to-go-try-these-out-The-Mac-Daddy-is-made-out-of-s.jpg",
+        "food_name": "Brisket Mac and Cheese",
+        "category": "Main Course",
+        "price": "$14.99",
+        "made_by": "BBQ House Specialty",
+        "food_origin": "USA",
+        "Tags": ["cheese", "crispy"],
+        "short_description": "A rich and creamy mac and cheese topped with tender, slow-smoked brisket. This dish is a favorite for its perfect combination of cheesy goodness and smoky flavors."
+    },
+
+    {
+        "id": "1002",
+        "food_image": "https://i.ibb.co.com/0KsfcD2/Smoked-Chicken-Quarters.jpg",
+        "food_name": "Smoked Chicken Quarters",
+        "category": "Main Course",
+        "price": "$12.50",
+        "made_by": "Pitmasters at BBQ House",
+        "food_origin": "USA",
+        "Tags": ["grill", "fried"],
+        "short_description": "Juicy, jumbo-sized chicken quarters, marinated and smoked to perfection. Known for its succulent texture and deeply infused smoky flavor."
+    },
+
+    {
+        "id": "1003",
+        "food_image": "https://i.ibb.co.com/P4r92j9/BBQ-Beef-Brisket-Tacos.jpg",
+        "food_name": "Brisket Tacos",
+        "category": "Street Food",
+        "price": "$8.99",
+        "made_by": "BBQ House Specialty",
+        "food_origin": "USA",
+        "Tags": ["tacos", "shorma"],
+        "short_description": "These tacos are packed with tender chopped brisket, combined with fresh toppings, and wrapped in warm tortillas. A BBQ twist on traditional street tacos."
+    },
+
+    {
+        "id": "1004",
+        "food_image": "https://i.ibb.co.com/DQjRpS0/Homemade-Banana-Pudding.jpg",
+        "food_name": "Banana Pudding",
+        "category": "Dessert",
+        "price": "$6.00",
+        "made_by": "House Chef",
+        "food_origin": "USA",
+        "Tags": ["pudding", "dessert"],
+        "short_description": "A classic Southern dessert with layers of fresh bananas, creamy vanilla pudding, and a crunchy wafer topping. Perfect to cool down after a smoky BBQ meal."
+    },
+
+    {
+        "id": "1005",
+        "food_image": "https://i.ibb.co.com/2YMrxPh/Bean-Sprout-Stir-Fry.jpg",
+        "food_name": "Fried Sprouts",
+        "category": "Side Dish",
+        "price": "$7.99",
+        "made_by": "BBQ House",
+        "food_origin": "USA",
+        "Tags": ["sprouts", "chawmin", "noodles"],
+        "short_description": "Crispy and savory Brussels sprouts, fried to golden perfection and lightly seasoned, providing a crunchy counterbalance to hearty BBQ dishes."
+    },
+
+    {
+        "id": "1006",
+        "food_image": "https://i.ibb.co.com/M2QF2Bk/Shrimp-and-Smoked-Sausage-Jambalaya.jpg",
+        "food_name": "Jumbo Smoked Sausage",
+        "category": "Pie",
+        "price": "$7.99",
+        "made_by": "BBQHOUSE Pastry Team",
+        "food_origin": "USA",
+        "Tags": ["pie", "dessert"],
+        "short_description": "A traditional Southern pecan pie with a BBQ twist, the pecans are slow-smoked, adding a rich and deep flavor to the buttery filling, topped with a dollop of fresh whipped cream."
+    },
+
+    {
+        "id": "1007",
+        "food_image": "https://i.ibb.co.com/PFDy6H8/Smoked-Pecan-Pie-The-Mountain-Kitchen.jpg",
+        "food_name": "Smoked Pecan Pie",
+        "category": "Main Course",
+        "price": "$9.99",
+        "made_by": "Local Pitmasters",
+        "food_origin": "USA (Southern BBQ Style)",
+        "Tags": ["sausage", "biriyani"],
+        "short_description": "A house-smoked sausage bursting with flavor, served with your choice of sides. Known for its rich spices and smoked casing."
+    },
+
+    {
+        "id": "1008",
+        "food_image": "https://i.ibb.co.com/jbSrTN4/Maple-Bourbon-Banana-Pudding-Cake-Simply-Scratch.jpg",
+        "food_name": "Maple Bourbon Bread Pudding",
+        "category": "Pudding",
+        "price": "$8.50",
+        "made_by": "Chef Harold Johnson",
+        "food_origin": "USA",
+        "Tags": ["sausage", "biriyani"],
+        "short_description": "Classic bread pudding with chunks of artisan bread soaked in a sweet bourbon-maple custard, baked to perfection and served with a drizzle of bourbon glaze."
+    },
+
+    {
+        "id": "1009",
+        "food_image": "https://i.ibb.co.com/pysb2pn/Chocolate-Lava-Cakes.jpg",
+        "food_name": "Chocolate Lava Cake",
+        "category": "Cake",
+        "price": "$9.00",
+        "made_by": "BBQHOUSE Pastry Chef Emily Harper",
+        "food_origin": "USA",
+        "Tags": ["cake", "dessert"],
+        "short_description": "A rich, decadent chocolate cake with a molten center, topped with smoked sea salt to enhance the flavors, served warm with a scoop of vanilla ice cream."
+    },
+
+    {
+        "id": "1010",
+        "food_image": "https://i.ibb.co.com/6Xm8F0T/Clive-Coffee-Espresso-Recipe.jpg",
+        "food_name": "Espresso Shot",
+        "category": "Espresso",
+        "price": "$4.50",
+        "made_by": "Local Pitmasters",
+        "food_origin": "BBQHOUSE Barista Team",
+        "Tags": ["espresso", "coffee"],
+        "short_description": "A bold espresso shot infused with a subtle smokey flavor, crafted using freshly roasted beans and a touch of BBQHOUSE magic. Perfect for a strong caffeine kick with a unique twist."
+    },
+
+    {
+        "id": "1011",
+        "food_image": "https://i.ibb.co.com/Z19gMJL/Mocha-Cappuccino.jpg",
+        "food_name": "Mocha Cappuccino",
+        "category": "Cappuccino",
+        "price": "$6.25",
+        "made_by": "BBQHOUSE Barista Team",
+        "food_origin": "UK",
+        "Tags": ["cappuccino", "coffee"],
+        "short_description": "A delightful blend of rich espresso, steamed milk, and dark chocolate, topped with foam and a sprinkle of smoked cocoa powder. A perfect combination of sweetness and smoke in every sip."
+    },
+    
+    {
+        "id": "1012",
+        "food_image": "https://i.ibb.co.com/Rzw0ZtV/Iced-Vanilla-Latte-Recipe-Starbucks-Copycat-One-Sweet-Appetite.jpg",
+        "food_name": "Grilled Vanilla Iced Coffee",
+        "category": "Iced Coffee",
+        "price": "$5.50",
+        "made_by": "Barista Marcus White",
+        "food_origin": "USA",
+        "Tags": ["iced", "coffee"],
+        "short_description": "Freshly brewed coffee over ice with a splash of vanilla syrup, enhanced with a hint of smoky vanilla flavor. Smooth and refreshing with a subtle BBQ twist."
+    },
+
+    {
+        "id": "1013",
+        "food_image": "https://i.ibb.co.com/ZMyFMqR/Grilled-Thai-Coconut-Chicken-Skewers.jpg",
+        "food_name": "Grilled Szechuan Chicken Skewers",
+        "category": "Skewers",
+        "price": "$10.50",
+        "made_by": "Chef Lin Yao",
+        "food_origin": "China (Sichuan Province)",
+        "Tags": ["chicken", "chineese"],
+        "short_description": "Tender chicken marinated in a spicy Szechuan peppercorn sauce, grilled to perfection. These skewers pack a punch with the signature numbing heat of Szechuan cuisine, balanced with a BBQHOUSE smoky twist."
+    },
+    
+    {
+        "id": "1014",
+        "food_image": "https://i.ibb.co.com/jHFLgK7/Easy-sticky-lamb-ribs.jpg",
+        "food_name": "Grilled Chinese BBQ Lamb Ribs",
+        "category": "Ribs",
+        "price": "$14.99",
+        "made_by": " BBQHOUSE Grill Team",
+        "food_origin": "China (Xinjiang Region)",
+        "Tags": ["chineese", "ribs"],
+        "short_description": "Tender lamb ribs marinated in traditional Chinese five-spice and grilled over an open flame. The smoky char balances with aromatic spices, offering a bold and flavorful experience."
+    },
+
+    {
+        "id": "1015",
+        "food_image": "https://i.ibb.co.com/M64tBVR/dbfa9429-1dec-42ff-879c-aadbdc9e2238.jpg",
+        "food_name": "Smoked Lemonade",
+        "category": "Non-Alcoholic Beverage",
+        "price": "$4.50",
+        "made_by": "BBQHOUSE Bar Team",
+        "food_origin": "USA",
+        "Tags": ["smoked", "drink"],
+        "short_description": "A refreshing classic lemonade with a BBQ twist. Freshly squeezed lemons mixed with smoked syrup, giving it a subtle, smoky flavor to complement your BBQ meal."
+    },
+
+    {
+        "id": "1016",
+        "food_image": "https://i.ibb.co.com/1vDVtmf/Chocolate-Orange-Old-Fashioned-Home-Cooked-Feast.jpg",
+        "food_name": "Charred Orange Old Fashioned",
+        "category": "Cocktail",
+        "price": "$12.00",
+        "made_by": "BBQHOUSE Bar Team",
+        "food_origin": "Canada",
+        "Tags": ["cocktail", "drink"],
+        "short_description": "BBQHOUSE’s special cold-brewed coffee, filtered through charcoal for a smooth and subtly smoky taste. Ideal for coffee lovers seeking something refreshing with a BBQ edge."
+    },
+
+    {
+        "id": "1017",
+        "food_image": "https://i.ibb.co.com/ydJZWry/BBQ-Chicken-Bacon-Pizza.jpg",
+        "food_name": "BBQ Chicken & Bacon Pizza",
+        "category": "BBQ Pizza",
+        "price": "$13.99",
+        "made_by": "Chef Harold Johnson",
+        "food_origin": "USA",
+        "Tags": ["bbq", "bacon"],
+        "short_description": "Smoky grilled chicken, crispy bacon, and a blend of cheddar and mozzarella on a thin crust, topped with BBQ sauce for that perfect blend of sweet and savory."
+    },
+
+    {
+        "id": "1018",
+        "food_image": "https://i.ibb.co.com/dpXY4GP/Grilled-Veggie-Pizza.jpg",
+        "food_name": "Grilled Veggie Pizza",
+        "category": "Vegetarian Pizza",
+        "price": "$12.50",
+        "made_by": "BBQHOUSE Grill Team",
+        "food_origin": "Italy (with a BBQ twist)",
+        "Tags": ["grill", "pizza"],
+        "short_description": " A healthy option featuring flame-grilled zucchini, bell peppers, and eggplant, drizzled with olive oil and balsamic glaze, topped with mozzarella and smoked provolone."
+    },
+
+    {
+        "id": "1019",
+        "food_image": "https://i.ibb.co.com/GWSg9YT/Grilled-Swordfish-Recipe-with-Coriander-and-Lime.jpg",
+        "food_name": "Grilled Swordfish with Lime Butter",
+        "category": "Seafood",
+        "price": "$21.75",
+        "made_by": "BBQHOUSE Grill Team",
+        "food_origin": "USA",
+        "Tags": ["fish", "grill"],
+        "short_description": "Juicy swordfish steaks grilled and topped with a lime butter sauce, providing a perfect balance of smokiness and citrus tang. A hearty and flavorful fish dish."
+    },
+
+    {
+        "id": "1020",
+        "food_image": "https://i.ibb.co.com/3cPpQzk/Blackened-Tilapia-Fish-Tacos-Recipe.jpg",
+        "food_name": "Smoked Tilapia Tacos",
+        "category": "Seafood",
+        "price": "$12.75",
+        "made_by": "Chef Carla Edwards",
+        "food_origin": "Mexico (with BBQ twist)",
+        "Tags": ["tilapia", "fish"],
+        "short_description": "Smoked tilapia, shredded cabbage, and tangy lime crema, all wrapped in soft corn tortillas. A fresh take on fish tacos with a subtle BBQ infusion."
+    },
+
+    {
+        "id": "1021",
+        "food_image": "https://i.ibb.co.com/j69Vwf9/Sweet-sour-spicy-Korean-fried-chicken-Yangnyeom-tongdak.jpg",
+        "food_name": "Spicy Chicken",
+        "category": "Main Course",
+        "price": "$12.99",
+        "made_by": "Chef Lin Yao",
+        "food_origin": "China (Sichuan)",
+        "Tags": ["chicken", "spicy"],
+        "short_description": "Chicken stir-fried with Szechuan peppercorns, dried chilies, and vegetables. This dish offers a mouth-tingling heat combined with savory flavors, delivering a signature spicy punch."
+    },
+
+    {
+        "id": "1022",
+        "food_image": "https://i.ibb.co.com/bgwKT8t/Grilled-Buffalo-Chicken-Sandwiches.jpg",
+        "food_name": "Buffalo Chicken Burger",
+        "category": "Burger",
+        "price": "$10.50",
+        "made_by": "BBQHOUSE Grill Team",
+        "food_origin": "USA",
+        "Tags": ["chicken", "burger"],
+        "short_description": "Chicken stir-fried with Szechuan peppercorns, dried chilies, and vegetables. This dish offers a mouth-tingling heat combined with savory flavors, delivering a signature spicy punch."
+    },
+
+    {
+        "id": "1023",
+        "food_image": "https://i.ibb.co.com/bLm4kTf/Free-Coffee-Mountain-Peak-Background-Images-Coffee-Peak-Creative-Posters-Photo-Background-PNG-and-Ve.jpg",
+        "food_name": " Smoked Black Tea",
+        "category": "Hot Tea",
+        "price": "$4.25",
+        "made_by": "BBQHOUSE Barista Team",
+        "food_origin": "China",
+        "Tags": ["tea", "hots"],
+        "short_description": "A robust black tea infused with a hint of smoke from BBQHOUSE’s charcoal grill. The perfect balance of strong tea flavors with a subtle smoky finish."
+    },
+
+    {
+        "id": "1024",
+        "food_image": "https://i.ibb.co.com/qkKptLs/Green-Tea-Highball-Cocktail-Recipe-How-to-Make-the-perfect-Green-Tea-Highball.jpg",
+        "food_name": "Grilled Lemon Green Tea",
+        "category": "Iced Tea",
+        "price": "$3.75",
+        "made_by": "Barista Emily Torres",
+        "food_origin": "Japan (Inspired)",
+        "Tags": ["tea", "lemon"],
+        "short_description": "Refreshing green tea, brewed with grilled lemons for a smoky citrus flavor. A light and invigorating drink served chilled with ice."
+    },
+
+    {
+        "id": "1025",
+        "food_image": "https://i.ibb.co.com/V2hdcDx/Easy-Grilled-Veggie-Quinoa-Salad.jpg",
+        "food_name": "Grilled Veggie and Quinoa Salad",
+        "category": "Vegetarian Salad",
+        "price": "$9.99",
+        "made_by": "BBQHOUSE Grill Team",
+        "food_origin": "Mediterranean-Inspired",
+        "Tags": ["salad", "veggie"],
+        "short_description": "A healthy and vibrant salad with grilled zucchini, bell peppers, red onions, and quinoa, topped with feta cheese and a balsamic glaze for a refreshing, nutrient-packed dish."
+    },
+
+    {
+        "id": "1026",
+        "food_image": "https://i.ibb.co.com/k85CkL3/Smoked-Salmon-Salad-with-Avocado-Walnuts-and-Goat-Cheese.jpg",
+        "food_name": "Smoked Salmon & Avocado Salad",
+        "category": "Seafood Salad",
+        "price": "$13.75",
+        "made_by": "Chef Emily Harper",
+        "food_origin": "USA",
+        "Tags": ["salmon", "salad"],
+        "short_description": "Tender smoked salmon served with fresh avocado, mixed greens, red onions, and cherry tomatoes, topped with a lemon-dill vinaigrette. A light, refreshing salad with a rich, smoky flavor."
+    },
+
+    {
+        "id": "1027",
+        "food_image": "https://i.ibb.co.com/QvK9kt3/Best-Cheeseburger-Recipe-I-Heart-Naptime.jpg",
+        "food_name": "Smoky Beef Cheeseburger",
+        "category": "Burger",
+        "price": "$12.99",
+        "made_by": "BBQHOUSE Grill Team",
+        "food_origin": "USA",
+        "Tags": ["beef", "burger"],
+        "short_description": "A half-pound beef patty grilled over an open flame, topped with smoked cheddar cheese, crispy bacon, and BBQ sauce. Served with lettuce, tomato, and pickles on a toasted brioche bun."
+    },
+
+    {
+        "id": "1028",
+        "food_image": "https://i.ibb.co.com/Cs3c9LL/Saucy-Korean-BBQ-Beef-Skewers.jpg",
+        "food_name": "Korean BBQ Beef Skewers",
+        "category": "BBQ Beef",
+        "price": "$14.25",
+        "made_by": "Chef Lin Yao",
+        "food_origin": "Korea (Inspired)",
+        "Tags": ["bbq", "beef"],
+        "short_description": "Tender slices of marinated beef, grilled on skewers, and glazed with a sweet and spicy Korean BBQ sauce. Served with grilled vegetables and a side of jasmine rice."
+    },
+
+    {
+        "id": "1029",
+        "food_image": "https://i.ibb.co.com/1rs8p4j/Delicious-Berry-Smoothie-Recipe.jpg",
+        "food_name": "Berry Blast Shake",
+        "category": "Juice",
+        "price": "$6.50",
+        "made_by": "BBQHOUSE Kitchen",
+        "food_origin": "USA",
+        "Tags": ["juice", "drink"],
+        "short_description": "A vibrant mix of strawberries, blueberries, and raspberries, combined with a splash of almond milk for a fruity delight."
+    }
+]

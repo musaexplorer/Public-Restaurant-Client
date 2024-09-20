@@ -1,0 +1,67 @@
+[
+    {
+        "id": "01",
+        "food_image": "https://i.ibb.co.com/Gc6Nhzg/Did-someone-say-brisket-Mac-and-cheese-Y-all-need-to-go-try-these-out-The-Mac-Daddy-is-made-out-of-s.jpg",
+        "food_name": "Brisket Mac and Cheese",
+        "category": "Main Course",
+        "price": "$14.99",
+        "made_by": "BBQ House Specialty",
+        "food_origin": "USA",
+        "short_description": "A rich and creamy mac and cheese topped with tender, slow-smoked brisket. This dish is a favorite for its perfect combination of cheesy goodness and smoky flavors."
+    },
+
+    {
+        "id": "02",
+        "food_image": "https://i.ibb.co.com/0KsfcD2/Smoked-Chicken-Quarters.jpg",
+        "food_name": "Smoked Chicken Quarters",
+        "category": "Main Course",
+        "price": "$12.50",
+        "made_by": "Pitmasters at BBQ House",
+        "food_origin": "USA",
+        "short_description": "Juicy, jumbo-sized chicken quarters, marinated and smoked to perfection. Known for its succulent texture and deeply infused smoky flavor."
+    },
+
+    {
+        "id": "03",
+        "food_image": "https://i.ibb.co.com/P4r92j9/BBQ-Beef-Brisket-Tacos.jpg",
+        "food_name": "Brisket Tacos",
+        "category": "Street Food",
+        "price": "$8.99",
+        "made_by": "BBQ House Specialty",
+        "food_origin": "USA",
+        "short_description": "These tacos are packed with tender chopped brisket, combined with fresh toppings, and wrapped in warm tortillas. A BBQ twist on traditional street tacos."
+    },
+
+    {
+        "id": "04",
+        "food_image": "https://i.ibb.co.com/DQjRpS0/Homemade-Banana-Pudding.jpg",
+        "food_name": "Banana Pudding",
+        "category": "Dessert",
+        "price": "$6.00",
+        "made_by": "House Chef",
+        "food_origin": "USA",
+        "short_description": "A classic Southern dessert with layers of fresh bananas, creamy vanilla pudding, and a crunchy wafer topping. Perfect to cool down after a smoky BBQ meal."
+    },
+
+    {
+        "id": "05",
+        "food_image": "https://i.ibb.co.com/2YMrxPh/Bean-Sprout-Stir-Fry.jpg",
+        "food_name": "Fried Sprouts",
+        "category": "Side Dish",
+        "price": "$7.99",
+        "made_by": "BBQ House",
+        "food_origin": "USA",
+        "short_description": "Crispy and savory Brussels sprouts, fried to golden perfection and lightly seasoned, providing a crunchy counterbalance to hearty BBQ dishes."
+    },
+
+    {
+        "id": "06",
+        "food_image": "https://i.ibb.co.com/M2QF2Bk/Shrimp-and-Smoked-Sausage-Jambalaya.jpg",
+        "food_name": "Jumbo Smoked Sausage",
+        "category": "Main Course",
+        "price": "$9.99",
+        "made_by": "Local Pitmasters",
+        "food_origin": "USA (Southern BBQ Style)",
+        "short_description": "A house-smoked sausage bursting with flavor, served with your choice of sides. Known for its rich spices and smoked casing."
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "01",
+        "image": "https://i.ibb.co.com/PgQBdwd/Rock-Musician.jpg",
+        "event_name": "Rock Night Live Concert",
+        "details": "The Rock Night Live Concert is a must-attend event for rock music enthusiasts, featuring performances from some of the biggest names in the genre. Expect a night full of high-energy performances with iconic hits, guitar solos, and crowd sing-alongs.",
+        "long_description": "Rock Night Live Concert is an exhilarating event where the energy of rock music comes alive, featuring high-octane performances by both legendary and up-and-coming rock bands. Set in an electrifying atmosphere, this concert promises a night filled with heavy guitar riffs, pounding drums, and unforgettable vocals. Fans of classic rock, punk, alternative, and metal come together to celebrate the raw power and passion of rock music.",
+        "date": "September 28, 2024",
+        "location": "Madison Square Garden, NYC",
+        "tickets": "$5"
+    },
+    
+    {
+        "id": "02",
+        "image": "https://i.ibb.co.com/wcYSt6B/Wine-and-Pizza-Pairings.jpg",
+        "event_name": "Gourmet Food and Wine Expo",
+        "details": "The Gourmet Food and Wine Expo is a three-day culinary celebration showcasing world-class cuisine and fine wines. This event brings together food lovers, wine connoisseurs, and top chefs from around the world.",
+        "long_description": "Gourmet Food and Wine Expo is a premier culinary event that brings together food lovers and wine enthusiasts for a luxurious experience of indulgence and discovery. Held annually, this event showcases a diverse range of gourmet foods, fine wines, craft beers, and spirits from around the world, offering attendees a chance to explore and savor the best in global cuisine and drink. The event typically includes special areas such as the VIP Wine Tasting Lounge and Artisan Market, where attendees can sample rare wines and handcrafted foods.",
+        "date": "October 10-12, 2024",
+        "location": "Napa Valley, CA",
+        "tickets": "$15"
+    },
+
+    {
+        "id": "03",
+        "image": "https://i.ibb.co.com/0XsqKDB/Futuristic-Strategy-Meeting.jpg",
+        "event_name": "FutureTech AI Summit",
+        "details": "The FutureTech AI Summit 2024 is a premier event that brings together global leaders, innovators, and professionals in the artificial intelligence and technology sectors. The summit focuses on the latest advancements in AI, machine learning, and data science.",
+        "long_description": "The FutureTech AI Summit is a cutting-edge conference dedicated to exploring the latest advancements, trends, and innovations in the field of artificial intelligence (AI) and emerging technologies. This annual event gathers industry leaders, AI researchers, tech innovators, and business executives to discuss how AI is transforming industries such as healthcare, finance, manufacturing, education, and more.",
+        "date": "October 22-24, 2024",
+        "location": "San Francisco Convention Center, CA",
+        "tickets": "$27"
+    },
+
+    {
+        "id": "04",
+        "image": "https://i.ibb.co.com/vBJ1gBB/7c37161c-f06f-46fc-8c2a-4848d50c6021.jpg",
+        "event_name": "NBA Finals 2024 Game 7",
+        "details": "The NBA Finals 2024 Game 7 promises to be the most thrilling night in basketball, where the two best teams of the season battle it out for the coveted NBA Championship title. Taking place at TD Garden.",
+        "long_description": "NBA Finals 2024 Game 7 is the climactic conclusion of the season, marking the final showdown between the two best teams in the NBA for the championship title. Game 7 is the most anticipated event in basketball, where the winner takes all, and everything is on the line. Set in an electrifying atmosphere, this decisive game often becomes a legendary moment in basketball history, as it pits the top athletes against each other in a high-pressure battle.",
+        "date": "November 2, 2024",
+        "location": "TD Garden, Boston, MA",
+        "tickets": "$12-$25"
+    },
+
+    {
+        "id": "05",
+        "image": "https://i.ibb.co.com/VgLvQJn/Premium-Photo-Attorney-networking-with-counsel-united-com-online-network.jpg",
+        "event_name": "Global Entrepreneurs Networking",
+        "details": "The Global Entrepreneurs Networking Summit is a one-day event designed for entrepreneurs, investors, and business leaders to come together, share insights, and build valuable connections.",
+        "long_description": "The Global Entrepreneurs Networking event is a premier gathering of entrepreneurs, business leaders, and innovators from around the world, aimed at fostering collaboration, inspiration, and the exchange of ideas. This event serves as a dynamic platform where startups, seasoned business owners, and investors can connect to share insights, build partnerships, and explore new market opportunities. Networking sessions play a central role, offering attendees the opportunity to establish valuable connections that can lead to collaborations, mentorships, and potential funding opportunities.",
+        "date": "November 5, 2024",
+        "location": "New York Hilton Midtown, NYC",
+        "tickets": "$20"
+    },
+
+    {
+        "id": "06",
+        "image": "https://i.ibb.co.com/2n4L3zH/Photos-of-Sundance-Film-Festival.jpg",
+        "event_name": "Sundance Film Festival",
+        "details": "The Sundance Film Festival is one of the most prestigious independent film festivals in the world, critics, and cinema lovers to Park City, Utah. The 2024 festival will feature a diverse lineup of films, including feature-length dramas.",
+        "long_description": "The Sundance Film Festival is one of the most prestigious and celebrated independent film festivals in the world, held annually in Park City, Utah. Founded by Robert Redford in 1978, Sundance has become a global platform for discovering groundbreaking films, documentaries, and innovative storytelling across various genres. The festival serves as a launchpad for independent filmmakers, showcasing their work to an international audience of industry professionals, critics, and film enthusiasts. Over the course of ten days, the festival screens hundreds of films, including features, short films, documentaries, and experimental cinema, often premiering highly anticipated projects.",
+        "date": "January 15, 2025",
+        "location": "Park City, Utah",
+        "tickets": "$35"
+    }
+]
