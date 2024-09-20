@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Swal from "sweetalert2";
 
 const AddFoods = () => {
@@ -40,6 +41,9 @@ const AddFoods = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>BBQHOUSE || ADD FOODS</title>
+            </Helmet>
             <div className="">
                 <div className="">
                     <h2 className="lg:text-6xl text-3xl text-center font-bold text-yellow-600 uppercase ml-5 mt-10 mb-20">Add Foods</h2>

@@ -1,7 +1,11 @@
+import { Helmet } from "react-helmet-async";
 
 const Menu = () => {
     return (
         <div>
+            <Helmet>
+                <title>BBQHOUSE || MENU</title>
+            </Helmet>
             <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-center text-4xl font-serif">
                 <div className="pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
                     <p>Our Food Menus</p>

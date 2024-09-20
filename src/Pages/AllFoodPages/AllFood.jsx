@@ -227,7 +227,7 @@ const AllFood = () => {
     return (
         <div>
             <Helmet>
-                <title>BBQHOUSE || ALLFOODS</title>
+                <title>BBQHOUSE || ALL FOODS</title>
             </Helmet>
             <h2 className="text-4xl font-medium text-center mt-10 mb-6 justify-center flex items-center gap-4">All Foods <FaArrowRight></FaArrowRight></h2>
 
