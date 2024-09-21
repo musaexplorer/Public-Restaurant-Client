@@ -66,7 +66,6 @@ const TopFoodsDtl = () => {
 
                     <div className="flex gap-10 mb-5 mt-10">
                         <p className="text-2xl"><span className="font-semibold uppercase">Category :</span> <span className="font-serif italic">{data?.category}</span></p>
-                        
                     </div>
                     <div className="gap-8 mb-6">
                         <p className="text-2xl mb-5"><span className="font-semibold uppercase">Made by :</span> <span className="font-serif italic">{data?.made_by}</span></p>

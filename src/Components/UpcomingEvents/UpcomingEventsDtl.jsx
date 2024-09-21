@@ -1,6 +1,6 @@
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import { Toaster } from "react-hot-toast";
 import Swal from "sweetalert2";
@@ -75,6 +75,8 @@ const UpcomingEventsDtl = () => {
             </div>
             <p className="font-serif italic text-gray-600 mx-10 mt-10">{data?.details}</p>
             <p className="font-serif italic text-gray-600 mx-10 mt-10 mb-10">{data?.long_description}</p>
+
+            <Link to='/'><button className="btn bg-yellow-600 text-white hover:text-yellow-600 hover:bg-white hover:border-yellow-600 font-bold uppercase ml-40 lg:ml-[600px] mb-10">Back</button></Link>
         </div>
     );
 };

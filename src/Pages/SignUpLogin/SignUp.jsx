@@ -38,28 +38,28 @@ const SignUp = () => {
             .then()
             .catch()
 
-            // const createdAt = res.user?.metadata?.creationTime;
-            // const lastLoginAt = res.user?.metadata?.lastLoginAt;
-            // const user = {email, createdAt: createdAt, lastLoginAt:lastLoginAt};
-            // fetch('https://tourism-management-server-phi.vercel.app/user',{
-            //     method: 'POST',
-            // headers: {
-            //     'content-type': 'application/json'
-            // },
-            // body: JSON.stringify(user)
-            // })
-            // .then(res => res.json())
-            // .then(data => {
-            //     if(data.insertedId){
-            //       Swal.fire({
-            //         position: 'top-end',
-            //         icon: 'success',
-            //         title: 'User added to the database',
-            //         showConfirmButton: false,
-            //         timer: 1500
-            //     })
-            //     }
-            // })
+            const createdAt = res.user?.metadata?.creationTime;
+            const lastLoginAt = res.user?.metadata?.lastLoginAt;
+            const user = {email, createdAt: createdAt, lastLoginAt:lastLoginAt};
+            fetch('http://localhost:5000/user',{
+                method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(user)
+            })
+            .then(res => res.json())
+            .then(data => {
+                if(data.insertedId){
+                  Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'User added to the database',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                }
+            })
         })
         .catch(error =>{
             console.error(error);

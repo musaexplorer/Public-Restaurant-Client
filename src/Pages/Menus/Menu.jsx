@@ -6,16 +6,16 @@ const Menu = () => {
             <Helmet>
                 <title>BBQHOUSE || MENU</title>
             </Helmet>
-            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-center text-4xl font-serif">
+            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-center lg:text-4xl text-2xl font-serif">
                 <div className="pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
                     <p>Our Food Menus</p>
                 </div>
             </div>
 
             <div>
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-10">Chicken</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-10">Chicken</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/0KsfcD2/Smoked-Chicken-Quarters.jpg" alt="" />
                         <div className="">
@@ -59,9 +59,9 @@ const Menu = () => {
                     </div>
                 </div>
 
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Burger</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Burger</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/QvK9kt3/Best-Cheeseburger-Recipe-I-Heart-Naptime.jpg" alt="" />
                         <div className="">
@@ -91,9 +91,9 @@ const Menu = () => {
                     </div>
                 </div>
 
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Coffee</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Coffee</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/6Xm8F0T/Clive-Coffee-Espresso-Recipe.jpg" alt="" />
                         <div className="">
@@ -137,9 +137,9 @@ const Menu = () => {
                     </div>
                 </div>
 
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Cake</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Cake</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/PFDy6H8/Smoked-Pecan-Pie-The-Mountain-Kitchen.jpg" alt="" />
                         <div className="">
@@ -183,9 +183,9 @@ const Menu = () => {
                     </div>
                 </div>
 
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Pizza</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Pizza</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/ydJZWry/BBQ-Chicken-Bacon-Pizza.jpg" alt="" />
                         <div className="">
@@ -215,9 +215,9 @@ const Menu = () => {
                     </div>
                 </div>
 
-                <h2 className="text-4xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Drink</h2>
+                <h2 className="lg:text-4xl text-2xl bg-gradient-to-r from-gray-700 to-gray-500 py-5 text-white mx-3 font-bold font-serif text-center mt-20 mb-8">Drink</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-10">
                     <div className="flex gap-10 ml-5 mr-5">
                         <img className="w-20 h-20 rounded-xl" src="https://i.ibb.co.com/1rs8p4j/Delicious-Berry-Smoothie-Recipe.jpg" alt="" />
                         <div className="">
