@@ -54,7 +54,7 @@ const UpcomingEventsDtl = () => {
 
     return (
         <div>
-            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-4xl font-serif italic">
+            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold lg:text-4xl text-xl font-serif italic">
                 <div className="pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
                     <p>{data?.event_name}</p>
                 </div>
@@ -65,16 +65,16 @@ const UpcomingEventsDtl = () => {
                     <p className="text-4xl mb-5 font-extralight uppercase mt-14">when</p>
                     <p className="flex items-center gap-2"><FaRegCalendarAlt className="text-yellow-600 text-xl"></FaRegCalendarAlt> {data?.date}</p>
                 </div>
-                <div className="ml-5">
+                <div className="lg:ml-5 ml-10">
                     <p className="text-4xl mb-5 font-extralight uppercase mt-14">Where</p>
                     <p className="flex items-center gap-2"><FaLocationDot className="text-yellow-600 text-xl"></FaLocationDot> {data?.location}</p>
                 </div>
                 <img className="ml-7 mt-14 w-80" src={data?.image} alt="" />
                 <p className="mt-14"><span className="text-2xl font-semibold font-serif ml-10">Events Ticket :</span> <span className="text-xl font-serif italic text-yellow-600 ml-6">{data?.tickets}</span></p>
-                <button onClick={BookNow} className="btn bg-yellow-600 font-bold uppercase text-white hover:text-yellow-600 hover:bg-white hover:border-yellow-600 ml-14 mt-14">Book Now</button>
+                <button onClick={BookNow} className="btn bg-yellow-600 font-bold uppercase text-white hover:text-yellow-600 hover:bg-white hover:border-yellow-600 lg:ml-14 ml-0 mt-14">Book Now</button>
             </div>
             <p className="font-serif italic text-gray-600 mx-10 mt-10">{data?.details}</p>
-            <p className="font-serif italic text-gray-600 mx-10 mt-10">{data?.long_description}</p>
+            <p className="font-serif italic text-gray-600 mx-10 mt-10 mb-10">{data?.long_description}</p>
         </div>
     );
 };

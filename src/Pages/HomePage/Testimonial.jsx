@@ -25,25 +25,25 @@ const Testimonial = () => {
             >
                 <SwiperSlide>
                     <div className='mt-10'>
-                        <p className='text-center font-light text-2xl'>"It was a fantastic evening in your superb restaurant which was enjoyed by <br /> everyone who was fortunate to be there" </p>
+                        <p className='text-center font-light lg:text-2xl text-xl'>"It was a fantastic evening in your superb restaurant which was enjoyed by <br /> everyone who was fortunate to be there" </p>
                         <p className='text-center mt-5 uppercase tracking-wide font-medium'>Julie Defoir</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='mt-10'>
-                        <p className='text-center font-light text-2xl'>"The menu, ambience and special attention given by your staff to the guests, was <br /> as always of the highest standard. We continue to receive compliments by many <br /> of those who were present"</p>
+                        <p className='text-center font-light lg:text-2xl text-xl'>"The menu, ambience and special attention given by your staff to the guests, was <br /> as always of the highest standard. We continue to receive compliments by many <br /> of those who were present"</p>
                         <p className='text-center mt-5 uppercase tracking-wide'>Richard nauz</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='mt-10'>
-                        <p className='text-center font-light text-2xl'>"I had such a wonderful evening yesterday, on my Birthday. The food was, as per <br /> usual, absolutely delicious and my Mother and I thoroughly enjoyed ourselves"</p>
+                        <p className='text-center font-light lg:text-2xl text-xl'>"I had such a wonderful evening yesterday, on my Birthday. The food was, as per <br /> usual, absolutely delicious and my Mother and I thoroughly enjoyed ourselves"</p>
                         <p className='text-center mt-5 uppercase tracking-wide'>James de franco</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='mt-10'>
-                        <p className='text-center font-light text-2xl'>"It was a fantastic evening in your superb restaurant which was enjoyed by <br /> everyone who was fortunate to be there"</p>
+                        <p className='text-center font-light lg:text-2xl text-lg'>"It was a fantastic evening in your superb restaurant which was enjoyed by <br /> everyone who was fortunate to be there"</p>
                         <p className='text-center mt-5 uppercase tracking-wide'>Jolie defoir</p>
                     </div>
                 </SwiperSlide>

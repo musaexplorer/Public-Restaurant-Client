@@ -229,7 +229,7 @@ const AllFood = () => {
             <Helmet>
                 <title>BBQHOUSE || ALL FOODS</title>
             </Helmet>
-            <h2 className="text-4xl font-medium text-center mt-10 mb-6 justify-center flex items-center gap-4">All Foods <FaArrowRight></FaArrowRight></h2>
+            <h2 className="lg:text-4xl text-3xl font-medium text-center mt-10 mb-6 justify-center flex items-center gap-4">All Foods <FaArrowRight></FaArrowRight></h2>
 
             <div className="justify-center items-center">
                 <div className="w-full p-4 flex items-center justify-between gap-2 lg:flex-row flex-col">

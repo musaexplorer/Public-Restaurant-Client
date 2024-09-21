@@ -2,10 +2,10 @@
 const ShareBlog = () => {
     return (
         <div className="mt-28">
-            <h2 className="text-5xl text-center text-yellow-600 italic font-serif mb-6">Latest News</h2>
-            <h3 className="text-4xl font-extralight text-center uppercase">From the blog</h3>
+            <h2 className="lg:text-5xl text-3xl text-center text-yellow-600 italic font-serif mb-6">Latest News</h2>
+            <h3 className="lg:text-4xl text-2xl font-extralight text-center uppercase">From the blog</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
-                <div className="card bg-base-100 w-96 border-2 shadow-2xl ml-4">
+                <div className="card bg-base-100 border-2 shadow-2xl">
                     <figure>
                         <img className="h-80"
                             src="../../../public/Images/10 ways to fuel employee engagement.jpeg"
@@ -20,7 +20,7 @@ const ShareBlog = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <figure>
                         <img className="h-80"
                             src="../../../public/Images/KITCHEN AUTOMATION_ 5 MUST-HAVE MODERN FEATURES.jpeg"
@@ -35,7 +35,7 @@ const ShareBlog = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <figure>
                         <img className="h-80"
                             src="../../../public/Images/Tips for Successful Restaurant Management.jpeg"

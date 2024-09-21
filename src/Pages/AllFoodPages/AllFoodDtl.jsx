@@ -51,14 +51,14 @@ const AllFoodDtl = () => {
 
     return (
         <div className="mb-10">
-            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-center text-4xl font-serif">
+            <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold text-center lg:text-4xl text-xl font-serif">
                 <div className="pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
                     <p>Our Foods Details</p>
                 </div>
             </div>
 
             <div className="flex ml-20 mr-10">
-                <img className="w-[600px] h-[600px]" src={data?.food_image} alt="" />
+                <img className="lg:w-[600px] w-60 lg:h-[600px]" src={data?.food_image} alt="" />
                 <div>
                     <h2 className="text-4xl text-gray-700 font-semibold ml-32">{data?.food_name}</h2>
                     <p className="text-2xl text-gray-600 flex items-center ml-32 mt-4"><span className="text-3xl font-semibold">{data?.price}</span></p>
