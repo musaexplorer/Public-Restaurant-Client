@@ -4,7 +4,7 @@ import TopFoodsPerCard from "./TopFoodsPerCard";
 const TopFoods = () => {
     const [topfoods, setTopFoods] = useState();
     useEffect(()=> {
-        fetch('http://localhost:5000/topfoods')
+        fetch('https://public-restaurant-server.vercel.app/topfoods')
         .then(res => res.json())
         .then(data => setTopFoods(data))
     }, [])

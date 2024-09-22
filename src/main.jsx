@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { createBrowserRouter, RouterProvider,} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Main from './Layout/Main';
 import Home from './Pages/HomePage/Home';
 import SignUp from './Pages/SignUpLogin/SignUp';
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       {
         path: '/topfood/:id',
         element: <TopFoodsDtl></TopFoodsDtl>,
-        loader: ({params}) => fetch(`http://localhost:5000/topfoods/${params.id}`)
+        loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/topfoods/${params.id}`)
       },
 
       {
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
       {
         path: '/item/:id',
         element: <AllFoodDtl></AllFoodDtl>,
-        loader: ({params}) => fetch(`http://localhost:5000/item/${params.id}`)
+        loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/item/${params.id}`)
       },
 
       {
@@ -63,13 +63,13 @@ const router = createBrowserRouter([
       {
         path: '/events/:id',
         element: <UpcomingEventsDtl></UpcomingEventsDtl>,
-        loader: ({params}) => fetch(`http://localhost:5000/events/${params.id}`)
+        loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/events/${params.id}`)
       },
 
       {
         path: '/ordered',
         element: <Order></Order>,
-        loader: () => fetch('http://localhost:5000/ordered')
+        loader: () => fetch('https://public-restaurant-server.vercel.app/ordered')
       },
 
       {
@@ -85,7 +85,7 @@ const router = createBrowserRouter([
       {
         path: '/updatefoods/:id',
         element: <UpdateFoods></UpdateFoods>,
-        loader: ({params}) => fetch(`http://localhost:5000/item/${params.id}`)
+        loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/item/${params.id}`)
       },
 
       {

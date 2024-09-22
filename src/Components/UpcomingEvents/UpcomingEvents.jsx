@@ -4,7 +4,7 @@ import UpcomingEventsPerCards from "./UpcomingEventsPerCards";
 const UpcomingEvents = () => {
     const [events, setEvents] = useState([]);
     useEffect(()=> {
-        fetch('http://localhost:5000/events')
+        fetch('https://public-restaurant-server.vercel.app/events')
         .then(res => res.json())
         .then(data => setEvents(data))
     }, [])

@@ -1,7 +1,7 @@
 // import axios from "axios";
 
 // const axiousInstace = axios.create({
-//     baseURL:'http://localhost:5000'
+//     baseURL:'https://public-restaurant-server.vercel.app'
 // })
 
 // const useAxious = () => {
@@ -13,7 +13,7 @@
 import axios from "axios";
 
 const AxiousPublic = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://public-restaurant-server.vercel.app'
 })
 
 const useAxios = () => {

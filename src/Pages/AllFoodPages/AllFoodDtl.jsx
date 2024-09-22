@@ -18,7 +18,7 @@ const AllFoodDtl = () => {
             made_by 
         };
     
-        fetch('http://localhost:5000/ordered', {
+        fetch('https://public-restaurant-server.vercel.app/ordered', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

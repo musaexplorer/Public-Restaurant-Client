@@ -7,7 +7,7 @@ const MyList = () => {
     const [ordered, setMyOrder] = useState(listedSpots);
 
     const handleDelete = id => {
-        fetch(`http://localhost:5000/ordered/${id}`, {
+        fetch(`https://public-restaurant-server.vercel.app/ordered/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

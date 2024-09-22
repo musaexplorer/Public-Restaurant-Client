@@ -11,7 +11,7 @@ const AllFood = () => {
     // const [tagsList, setTagsList] = useState([]);
     // const [item, setItems] = useState([]);
     // useEffect(() => {
-    //     fetch('http://localhost:5000/item')
+    //     fetch('https://public-restaurant-server.vercel.app/item')
     //         .then(res => res.json())
     //         .then(data => setItems(data))
     // }, []);
@@ -109,7 +109,7 @@ const AllFood = () => {
     const [tagsList, setTagsList] = useState([]);
     const [item, setItems] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/item')
+        fetch('https://public-restaurant-server.vercel.app/item')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])

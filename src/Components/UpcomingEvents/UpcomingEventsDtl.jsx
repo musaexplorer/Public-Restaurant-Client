@@ -21,7 +21,7 @@ const UpcomingEventsDtl = () => {
             tickets
         };
 
-        fetch('http://localhost:5000/booknow', {
+        fetch('https://public-restaurant-server.vercel.app/booknow', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
