@@ -1,4 +1,4 @@
-import featuredItems from "../../../public/Images/delicious-meal-table.jpg";
+import featuredItems from "/Images/delicious-meal-table.jpg";
 import "./ChineeseFood.css";
 
 const ChineeseFood = () => {

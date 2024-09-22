@@ -1,7 +1,7 @@
-import banner1 from "../../../public/Images/Banner1.jpg"
-import banner2 from "../../../public/Images/Banner2.jpg"
-import banner3 from "../../../public/Images/Banner3.jpg"
-import banner4 from "../../../public/Images/Banner4.jpeg"
+import banner1 from "/Images/Banner1.jpg"
+import banner2 from "/Images/Banner2.jpg"
+import banner3 from "/Images/Banner3.jpg"
+import banner4 from "/Images/Banner4.jpeg"
 
 const Slider = () => {
   return (
@@ -9,7 +9,7 @@ const Slider = () => {
       <div className="carousel ">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="../../../public/Images/Banner1.jpg"
+            src={banner1}
             className="w-full h-[400px]" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle">❮</a>

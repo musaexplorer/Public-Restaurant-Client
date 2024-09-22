@@ -4,8 +4,8 @@ const FirstWel = () => {
         <div className="mt-14">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-40">
                 <div data-aos="fade-left" className="relative">
-                    <img className="lg:w-[270px] w-60 lg:h-[450px] h-64 absolute lg:mt-32 ml-10 " src="../../../public/Images/Mercado Restaurant review, Sydney _ Gourmet Traveller.jpeg" alt="" />
-                    <img className="lg:w-[380px] w-64 lg:h-[500px] h-72 lg:ml-44 ml-32 mt-8 shadow-2xl" src="../../../public/Images/Restaurant Branding.jpeg" alt="" />
+                    <img className="lg:w-[270px] w-60 lg:h-[450px] h-64 absolute lg:mt-32 ml-10 " src="/Images/Mercado Restaurant review, Sydney _ Gourmet Traveller.jpeg" alt="" />
+                    <img className="lg:w-[380px] w-64 lg:h-[500px] h-72 lg:ml-44 ml-32 mt-8 shadow-2xl" src="/Images/Restaurant Branding.jpeg" alt="" />
                 </div>
                 <div className="mt-10 mx-5">
                     <h3 className="text-lime-300 font-serif italic lg:text-3xl text-xl">Welcome to</h3>

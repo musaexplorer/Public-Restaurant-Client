@@ -8,7 +8,7 @@ const ShareBlog = () => {
                 <div className="card bg-base-100 border-2 shadow-2xl">
                     <figure>
                         <img className="h-80"
-                            src="../../../public/Images/10 ways to fuel employee engagement.jpeg"
+                            src="/Images/10 ways to fuel employee engagement.jpeg"
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -23,7 +23,7 @@ const ShareBlog = () => {
                 <div className="card bg-base-100 shadow-xl">
                     <figure>
                         <img className="h-80"
-                            src="../../../public/Images/KITCHEN AUTOMATION_ 5 MUST-HAVE MODERN FEATURES.jpeg"
+                            src="/Images/KITCHEN AUTOMATION_ 5 MUST-HAVE MODERN FEATURES.jpeg"
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -38,7 +38,7 @@ const ShareBlog = () => {
                 <div className="card bg-base-100 shadow-xl">
                     <figure>
                         <img className="h-80"
-                            src="../../../public/Images/Tips for Successful Restaurant Management.jpeg"
+                            src="/Images/Tips for Successful Restaurant Management.jpeg"
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">

@@ -83,7 +83,7 @@ const Login = () => {
             </Helmet>
             <div data-aos="zoom-in" className="hero ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img className="w-[1100px] h-[650px]" src="/public/Images/Halloumi Burgers.jpeg" alt="" />
+                    <img className="w-[1100px] h-[650px]" src="/Images/Halloumi Burgers.jpeg" alt="" />
 
                     <div data-aos="zoom-in-up" className="card w-full max-w-sm shrink-0l">
                         <form onSubmit={handleLogin} className="card-body">
