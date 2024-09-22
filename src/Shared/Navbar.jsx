@@ -1,8 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logos from "../../public/Images/FoodLogos-removebg-preview.png";
-import useAuth from "../Hooks/useAuth";
-import { useState } from "react";
-import { CgMenuGridO } from "react-icons/cg";
+
 
 const Navbar = () => {
     // const { user, logOut } = useAuth();
@@ -12,47 +10,55 @@ const Navbar = () => {
     //         .catch()
     // }
 
-    // const navItems = <>
-    //     <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/'>Home</Link></li>
-    //     <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/allfoods'>All Food Item</Link></li>
-    //     <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/blog'>Blog</Link></li>
-    //     <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link>Menu</Link></li>
-    // </>
+    const navItems = <>
+        <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/'>Home</Link></li>
+        <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/item'>All Food Item</Link></li>
+        <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/blog'>Blog</Link></li>
+        <li className="font-bold italic font-serif text-white hover:underline focus:bg-black"><Link to='/menu'>Menu</Link></li>
 
-    const { user, logOut } = useAuth()
-    const [visible, setVisible] = useState(false);
-    const [toggle, setToggle] = useState(false);
-    const handleSignOut = () => {
-        logOut()
-        .then()
-        .catch()
-    }
+        <div className="dropdown dropdown-hover">
+            <div tabIndex={0} role="button" className="mt-2 font-bold font-serif italic text-white ml-3">Dashboard</div>
+            <ul tabIndex={0} className="dropdown-content menu bg-gray-700 rounded-box z-[1] w-32 p-2 shadow">
+                <li className="font-bold italic font-serif text-white hover:bg-gray-400 rounded-lg"><Link to='/addfood'>Add Food</Link></li>
+                <li className="font-bold italic font-serif text-white hover:bg-gray-400 rounded-lg"><Link to='/ordered'>Order</Link></li>
+            </ul>
+        </div>
+    </>
 
-    const link = (
-        <>
-            <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/"}>Home</NavLink>
+    // const { user, logOut } = useAuth()
+    // const [visible, setVisible] = useState(false);
+    // const [toggle, setToggle] = useState(false);
+    // const handleSignOut = () => {
+    //     logOut()
+    //     .then()
+    //     .catch()
+    // }
 
-            <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/item"}>All Foods</NavLink>
+    // const link = (
+    //     <>
+    //         <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/"}>Home</NavLink>
 
-            <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/blog"}>Blog</NavLink>
+    //         <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/item"}>All Foods</NavLink>
 
-            <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/menu"}>Menu</NavLink>
+    //         <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/blog"}>Blog</NavLink>
 
-            {
-                user ? '' : <NavLink
-                    className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#00ADB5] px-3 py-2 font-semibold text-[#00ADB5]  ml-2 "
-                    to={"/login"}
-                >
-                    Login
-                </NavLink>
-            }
+    //         <NavLink className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#dac936] px-3 py-2 font-semibold text-[#00ADB5] ml-2" to={"/menu"}>Menu</NavLink>
 
-        </>
-    );
+    //         {
+    //             user ? '' : <NavLink
+    //                 className="text-lg hover:text-[#EEEEEE] rounded-lg hover:bg-[#00ADB5] px-3 py-2 font-semibold text-[#00ADB5]  ml-2 "
+    //                 to={"/login"}
+    //             >
+    //                 Login
+    //             </NavLink>
+    //         }
+
+    //     </>
+    // );
 
     return (
         <div>
-            <div className="text-[#00ADB5] bg-[#393E46] border-b-[6px] border-[#f0d76b]">
+            {/* <div className="text-[#00ADB5] bg-[#393E46] border-b-[6px] border-[#f0d76b]">
                 <div className="navbar">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -133,9 +139,9 @@ const Navbar = () => {
                     </div>
 
                 </div>
-            </div>
-            <div className="">
-                {/* <div className="navbar-start">
+            </div> */}
+            <div className="navbar bg-gray-600 ">
+                <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg
@@ -153,26 +159,17 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-gray-500 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-gray-600 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {navItems}
                         </ul>
                     </div>
-                    <img className="w-40" src={logos} alt="" />
-                </div> */}
-                {/* <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <a className="text-xl"><img className="w-40" src={logos} alt="" /></a>
+                </div>
+                <div className="navbar-end hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1 mr-10">
                         {navItems}
-                        {
-                            user ? <>
-                                <span className="font-bold">{user?.displayName}</span>
-                                <img className="w-7 lg:w-10 rounded-full" src={user?.photoURL} />
-                                <button onClick={handleSignOut} className="btn text-white bg-teal-500 hover:text-teal-500 hover:bg-white font-bold">Log Out</button>
-                            </>
-                                :
-                                <Link to="/login"><button className="btn text-white bg-teal-500 font-bold hover:text-teal-500 hover:bg-white">Login</button></Link>
-                        }
                     </ul>
-                </div> */}
+                </div>
                 {/* <div className="navbar-end">
                     <a className="btn">Button</a>
                 </div> */}

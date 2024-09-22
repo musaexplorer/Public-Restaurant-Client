@@ -15,7 +15,7 @@ const ShareBlog = () => {
                         <h2 className="font-bold text-[16px] text-yellow-600">Restaurant Operations Management Tips</h2>
                         <p className="text-gray-500 italic font-serif text-xs">Write blog posts that offer advice on streamlining restaurant operations. Topics can include staff management, inventory control, and optimizing kitchen workflows.</p>
                         <div className="card-actions justify-center">
-                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600">read more</button>
+                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600 hover:border-yellow-600">read more</button>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const ShareBlog = () => {
                         <h2 className="font-bold text-[16px] text-yellow-600">Marketing Strategies for Restaurants</h2>
                         <p className="text-gray-500 italic font-serif text-xs">Develop blogs focused on restaurant marketing, including social media strategies, using influencers, and optimizing online reviews.</p>
                         <div className="card-actions justify-center">
-                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600">read more</button>
+                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600 hover:border-yellow-600">read more</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const ShareBlog = () => {
                         <h2 className="font-bold text-[16px] text-yellow-600">Financial Management for Restaurants</h2>
                         <p className="text-gray-500 italic font-serif text-xs">Offer practical financial advice tailored to restaurant owners looking to cut costs and boost profits.</p>
                         <div className="card-actions justify-center">
-                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600">Buy Now</button>
+                            <button className="btn bg-yellow-600 font-bold uppercase text-white hover:bg-white hover:text-yellow-600 hover:border-yellow-600">read more</button>
                         </div>
                     </div>
                 </div>

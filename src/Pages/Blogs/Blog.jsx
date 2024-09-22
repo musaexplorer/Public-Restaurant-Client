@@ -7,9 +7,9 @@ const Blog = () => {
                 <title>BBQHOUSE || BLOG</title>
             </Helmet>
             <div className="md:flex justify-center bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] items-center h-40">
-                <div className="md:flex pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
+                <div className="pb-10 pt-7 w-full bg-slate-700 bg-opacity-45">
                     <div className="text-left">
-                        <p className="lg:text-5xl text-2xl italic font-serif text-slate-300">Standard Post Type</p>
+                        <p className="lg:text-5xl text-2xl text-center italic font-serif text-slate-300">Standard Post Type</p>
                     </div>
                 </div>
             </div>
