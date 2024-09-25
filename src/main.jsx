@@ -19,6 +19,7 @@ import UpcomingEventsDtl from './Components/UpcomingEvents/UpcomingEventsDtl';
 import AddFoods from './Components/AddFoods/AddFoods';
 import MyAddedFood from './Components/MyAdded/MyAddedFood';
 import UpdateFoods from './Components/UpdateFoods/UpdateFoods';
+import PrivateRoute from './Providers/PrivateRoute';
 
 const queryClient = new QueryClient()
 
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
 
       {
         path: '/topfood/:id',
-        element: <TopFoodsDtl></TopFoodsDtl>,
+        element: <PrivateRoute><TopFoodsDtl></TopFoodsDtl></PrivateRoute>,
         loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/topfoods/${params.id}`)
       },
 
@@ -46,7 +47,7 @@ const router = createBrowserRouter([
 
       {
         path: '/item/:id',
-        element: <AllFoodDtl></AllFoodDtl>,
+        element: <PrivateRoute><AllFoodDtl></AllFoodDtl></PrivateRoute>,
         loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/item/${params.id}`)
       },
 
@@ -62,7 +63,7 @@ const router = createBrowserRouter([
 
       {
         path: '/events/:id',
-        element: <UpcomingEventsDtl></UpcomingEventsDtl>,
+        element: <PrivateRoute><UpcomingEventsDtl></UpcomingEventsDtl></PrivateRoute>,
         loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/events/${params.id}`)
       },
 
@@ -84,7 +85,7 @@ const router = createBrowserRouter([
 
       {
         path: '/updatefoods/:id',
-        element: <UpdateFoods></UpdateFoods>,
+        element: <PrivateRoute><UpdateFoods></UpdateFoods></PrivateRoute>,
         loader: ({ params }) => fetch(`https://public-restaurant-server.vercel.app/item/${params.id}`)
       },
 

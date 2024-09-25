@@ -281,7 +281,7 @@ const AllFood = () => {
                         </div>
                     </div>
                 }
-                <div className="grid sm:p-0 p-4 max-w-[1300px] mb-10 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3">
+                <div className="grid mb-10 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {
                         item?.map(item => <AllFoodPerCards key={item._id} item={item}></AllFoodPerCards>)
                     }

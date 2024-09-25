@@ -55,7 +55,7 @@ const UpcomingEventsDtl = () => {
     return (
         <div>
             <div className="bg-[url('https://i.ibb.co.com/T27FjZZ/delicious-meal-table.jpg')] h-40 bg-cover my-5 pt-7 text-white font-bold lg:text-4xl text-xl font-serif italic">
-                <div className="pb-10 pt-7 px-36 w-full bg-slate-700 bg-opacity-45">
+                <div className="pb-10 pt-7 w-full bg-slate-700 bg-opacity-45">
                     <p>{data?.event_name}</p>
                 </div>
             </div>
